@@ -1,29 +1,39 @@
+html{
+    width: 600px;
+}
+body{
+    margin: 0;
+    width: 600px;
+    padding: 0 0 0 0;
+
+}
+
 
 main{
-    margin: 80px;
+    padding: 40px;
 }
 .page-header{
-    height:250px ;
-    width: 500px;
+    height:260px ;
+    width: 600px;
     background-image: url(/apple-pie/images/apple-pie.jpg);
     background-size: cover ;
-    margin-left: auto;
-    margin-right: auto;
+   
 }
 .page-header h1 {
+    display: block;
     position: absolute;
     color: white;
     text-align: center;
-    bottom: 70%;
-    left: 40%;
-    
-    
+    margin-left: 250px;
+    margin-top: 170px;
+   
 }
 ul{
     list-style-type: '-';
 }
 
 .recipe{
+    display: block;
     padding: 20px;
     height: 60px;
     transform: translate(35%);
@@ -34,8 +44,8 @@ ul{
 }
 
 .recipe2{
-    align-items: center;
+    display: block;
     padding: 20px;
     height: 50px;
-    transform: translate(25%);
+    transform: translate(20%);
 }
