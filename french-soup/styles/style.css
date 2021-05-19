@@ -1,9 +1,32 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+/* h1, body, html, main {
   margin: 0;
-}
+} */
 /*Import the font and set the default size*/
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+#mainHeader h1{
+  color: wheat;
+  font-size: 4rem;
+}
+
+section:first-of-type #intro  p {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+#intro p,li{
+  font-size: 1.6rem;
+
+}
+
+ul li {
+  list-style-type: '-';
 }
